@@ -1,0 +1,23 @@
+{
+  "name": "tc-react-portfolio",
+  "version": "1.0.0",
+  "description": "HW 20",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcrear/tc-react-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcrear/tc-react-portfolio/issues"
+  },
+  "homepage": "https://github.com/tcrear/tc-react-portfolio#readme"
+}
