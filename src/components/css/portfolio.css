@@ -1,0 +1,14 @@
+img{
+    text-align: center;
+    margin: 35px;
+}
+
+a{ 
+    text-align: center;
+    text-shadow: darkgrey;
+}
+
+a p {
+    color: #f3f3f3 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
