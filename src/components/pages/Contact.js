@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/contact.css';
 
-export default function Contactme() {
+function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
@@ -23,4 +23,4 @@ export default function Contactme() {
   );
 }
 
-export default Contactme;
+export default Contact;
