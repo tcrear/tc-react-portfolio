@@ -1,24 +1,27 @@
 import React from 'react';
+import '../styles/resume.css';
 
-export default function Resume() {
-  return (
-    <div>
-      <h1>Resume</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+const styles = {
+  sectionStyles: {
+    background: '#155e6b;',
+  },
+};
+
+
+function Resume() {
+  return (  
+    <section style={styles.sectionStyles} className="section">
+      <a href="https://drive.google.com/file/d/1om13BwV2XF488_56YfAZ6QkZchVgjKYQ/view?usp=sharing">See More</a>
+      <h2>Tech Stack</h2>
+        <p>Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL</p><br></br>
+        <p>Applications: GitHub, MongoDB, MySQL</p><br></br>
+        <p>Tools: Express, React, Node, Handlebars, Query, Bootstrap</p><br></br>
+      <h2>Education</h2>
+        <p>Certificate, Full Stack Web Development University of Minnesota - Minneapolis, MN</p><br></br>
+        <p>Bachelor of Arts, Communication Winona State University - Winona, MN</p><br></br>
+        <p>Associate of Arts - Inver Hills Community College - Inver Grove Heights, MN</p><br></br>
+    </section>
   );
 }
+
+export default Resume;

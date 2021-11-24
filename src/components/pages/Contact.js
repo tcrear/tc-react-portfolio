@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/contact.css';
+import '../styles/contact.css';
 
 function Contact() {
   return (
@@ -7,7 +7,7 @@ function Contact() {
       <h1>Contact Page</h1>
       <div className="card" id="form">
         <div className="card-body">
-          <h3 className="card-title">Interested? Enter your info below:</h3>
+          <h3 className="card-title">Enter your info below to reach out to me directly:</h3>
             <form>
               <label for="fname">First name:</label><br></br>
               <input type="text" id="fname" name="fname"></input><br></br>

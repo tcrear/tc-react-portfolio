@@ -1,0 +1,51 @@
+:root {
+    --dark:#155e6b;
+    --light: #ffffff;
+    --navlink-color: #9ad6c4;
+}
+
+header {
+    text-align: center;
+    background-color: var(--dark);
+    padding-bottom: 50px;
+}
+
+header p {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+} 
+
+h1 {
+    text-align: center;
+    background: var(--dark);
+    font-size: 36px;
+    padding-top: 15%;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background: var(--dark);
+    font-size: 20px;
+
+}
+
+p {
+    text-align: center;
+    box-shadow: #ffffff;
+    
+}
+
+a:hover {
+    transition:.5s;
+    color: #fff;
+    background-color: var(--dark);
+    border-style: none; 
+}
+

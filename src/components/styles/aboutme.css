@@ -1,0 +1,25 @@
+:root {
+    --dark:#155e6b;
+    --light: #ffffff;
+    --navlink-color: #9ad6c4;
+}
+
+h1 {
+    color: var(--dark);
+    text-align: center;
+}
+
+.headshot {
+    display: block;
+    box-shadow: rgb(27, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+p {
+    color: var(--dark);
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}

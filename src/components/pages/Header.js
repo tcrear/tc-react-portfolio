@@ -1,19 +1,21 @@
 import React from 'react';
-import '../styles/Header.css';
+import '../styles/header.css';
+import Paint from "../image/paint.jpg";
 
 const styles = {
   headerStyle: {
-    background: 'green',
+    background: '#ffffff',
   },
-  headingStyle: {
-    fontSize: '100px',
-  },
+  // headingStyle: {
+  //   fontSize: '30px',
+  // },
 };
 
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
+      {/* <h1 style={styles.headingStyle}> Welcome to my portfolio! </h1> */}
+      <img src={Paint} alt="paint line" width="1400" height="auto"></img>
     </header>
   );
 }
