@@ -16,6 +16,7 @@ h1 {
 
 section p {
     text-align: center;
+    color: var(--light);
     font-size: 20px;
     padding-left: 15%;
     padding-right: 15%;

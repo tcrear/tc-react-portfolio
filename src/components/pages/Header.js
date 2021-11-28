@@ -15,7 +15,7 @@ function Header() {
   return (
     <header style={styles.headerStyle} className="header">
       {/* <h1 style={styles.headingStyle}> Welcome to my portfolio! </h1> */}
-      <img src={Paint} alt="paint line" width="1400" height="auto"></img>
+      <img src={Paint} alt="paint line" width="1500" height="auto"></img>
     </header>
   );
 }

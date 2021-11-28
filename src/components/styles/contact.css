@@ -11,4 +11,5 @@ h1 {
 
 #form {
     background-color: var(--dark);
+    text-align: center;
 }

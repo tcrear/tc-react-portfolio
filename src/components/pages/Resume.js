@@ -3,7 +3,7 @@ import '../styles/resume.css';
 
 const styles = {
   sectionStyles: {
-    background: '#155e6b;',
+    background: '#155e6b',
   },
 };
 
@@ -11,7 +11,7 @@ const styles = {
 function Resume() {
   return (  
     <section style={styles.sectionStyles} className="section">
-      <a href="https://drive.google.com/file/d/1om13BwV2XF488_56YfAZ6QkZchVgjKYQ/view?usp=sharing">See More</a>
+      <a href="https://drive.google.com/file/d/1om13BwV2XF488_56YfAZ6QkZchVgjKYQ/view?usp=sharing">Link to Full Resume</a>
       <h2>Tech Stack</h2>
         <p>Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL</p><br></br>
         <p>Applications: GitHub, MongoDB, MySQL</p><br></br>

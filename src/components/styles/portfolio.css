@@ -3,25 +3,29 @@
     --light: #ffffff;
     --navlink-color: #9ad6c4;
 }
-
-img{
+/* 
+img {
     text-align: center;
     margin: 35px;
-}
+} */
 
-a{ 
+a { 
     text-align: center;
-    text-shadow:rgb(27, 54, 54);
 }
 
 a p {
-    color: #ffffff ;
+    color: var(--dark) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project-image { 
-    display: inline;
+    display: inline-block;
     width: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+col {
+    padding-top: 25px ;
+    padding-bottom: 25px ;
 }
