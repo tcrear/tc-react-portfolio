@@ -16,7 +16,7 @@ function Portfolio() {
                     <div class="col">
                          <div class="w-100">
                             <h3>Gary Almes Institute of Fine Art</h3>
-                            <img src={Art} alt="art login screen" width="400" height="250"></img>
+                            <img src={Art} alt="art login screen" width="500" height="250"></img>
                             <a href="https://github.com/andrewtrudeau/bootcamp-project-2" target="_blank" rel="noreferrer"><br></br>
                             <button id="linkButton" a href="https://github.com/andrewtrudeau/bootcamp-project-2">GitHub</button>
                             </a>
@@ -26,7 +26,7 @@ function Portfolio() {
                         </div>
                         <div class="w-100">
                             <h3>Book Search Engine</h3>
-                            <img src={Book} alt="book search engine" width="400" height="250"></img>
+                            <img src={Book} alt="book search engine" width="500" height="250"></img>
                             <a href="https://github.com/tcrear/book-search-engine" target="_blank" rel="noreferrer"><br></br>
                             <button id="linkButton" a href="https://github.com/tcrear/book-search-engine">GitHub</button>
                             </a>
