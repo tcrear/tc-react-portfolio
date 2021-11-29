@@ -4,29 +4,12 @@
     --navlink-color: #9ad6c4;
 }
 
-img {
-    text-align: center;
-    margin: 35px;
-    
-}
-
-a { 
-    text-align: center;
-}
-
-a p {
-    color: var(--dark) ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.project-image { 
-    display: inline-block;
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+h3 {
+    margin: 35px;    
 }
 
 col {
-    padding-top: 25px ;
+    text-align: center;
+    padding-top: 25px;
     padding-bottom: 25px ;
 }
